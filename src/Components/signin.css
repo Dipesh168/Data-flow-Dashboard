@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container for the entire Signin page */
+.signin-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Left side: form section */
+.form-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.form-container h2 {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.form-container h5 {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.form-container .MuiTextField-root {
+  margin-bottom: 15px;
+}
+
+.form-container .MuiButton-root {
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.form-container .MuiLink-root {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Right side: banner section */
+.banner-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.banner-container img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Google Sign-in button style */
+.google-signin-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-signin-btn img {
+  height: 20px;
+  width: 25px;
+  margin-left: 10px;
+}
+
+/* Styling the Snackbar message */
+.MuiSnackbar-root {
+  bottom: 30px; /* position slightly above the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signin-container {
+    flex-direction: column;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .banner-container {
+    display: none; 
+  }
+}

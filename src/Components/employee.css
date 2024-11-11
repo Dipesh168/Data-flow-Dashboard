@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Info Boxes */
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.info-box {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+}
+
+.info-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.info-box h5 {
+  font-size: 1.5rem;
+  color: #4caf50;
+}
+
+.info-box svg {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+/* Input and Buttons */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-left: 8px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table td {
+  color: #555;
+}
+
+/* Employee Details */
+.employee-details {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.employee-details h6 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.employee-details p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Loading and Error Styles */
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.loading {
+  color: #ff5722;
+}
+
+.error {
+  color: #f44336;
+}
+
+/* Chart Container */
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.chart-box {
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-box h4 {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}

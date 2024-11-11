@@ -1,0 +1,45 @@
+/* sidebar.css */
+
+/* Style for the sidebar items */
+.sidebar-item {
+  list-style-type: none;
+  padding: 20px 0; /* Adds space at the top and bottom */
+  margin-top: 20px; /* Moves the list down with a bit more space */
+}
+
+/* Style for each individual list item */
+.sidebar-lists {
+  margin: 15px 0; /* Adds space between each list item */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Style for the links inside the sidebar */
+.sidebar-lists a {
+  text-decoration: none;
+  color: #333; /* Darker color for better readability */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Increased space between icon and text */
+  font-weight: 600; /* Slightly bolder font for emphasis */
+  padding: 8px 15px; /* Adds padding around text */
+  border-radius: 8px; /* Rounded corners for the link */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background color change on hover */
+}
+
+/* Hover effect for the list items */
+.sidebar-lists a:hover {
+  background-color: #f0f0f0; /* Subtle background change on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+.sidebar-lists a svg {
+  font-size: 22px; /* Standard icon size */
+  color: #4CAF50; /* Green color to match the theme */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Hover effect for the icons */
+.sidebar-lists a:hover svg {
+  color: #388E3C; /* Slightly darker green when hovering */
+}
